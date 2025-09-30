@@ -1,7 +1,6 @@
 import {Form} from 'react-bootstrap';
 import {Row, Col} from 'react-bootstrap';
 import {Formik} from 'formik';
-import * as yup from 'yup';
 import {Boton, FormInput} from '../components';
 import formSchema from '../schemas/Form.schema'
 
