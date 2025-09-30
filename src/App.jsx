@@ -55,6 +55,7 @@ function App() {
 //o de forma controlada tomando el evento de onchange del form.control con un usestate en navbar q 
 //guarda el e.target.value tanto en su estado como en el value del form.control y lo pasa a filtrarMenu
 //de manera controlada se puede filtrar en tiempo real a medida q se ingresa texto en el input
+//la condicion del switch hay q ponerla al reves al setear el atributo en html para q se ilumine en modo oscuro
 
   const filtrarMenu = (input) => {
     setCarta(menu.filter(p => p.nombre.toLowerCase().includes(input.toLowerCase())));
@@ -62,8 +63,7 @@ function App() {
 
   const cambiarDarkMode = (darkModeOn) => {
     const html = document.querySelector('html');
-    console.log(html.getAttribute(darkModeOn))
-    html.setAttribute('data-bs-theme', darkModeOn ? '':'dark')
+    html.setAttribute('data-bs-theme', !darkModeOn ? '':'dark')
   };
 
 //agregar una ruta con * y que lleve a inicio o pagina de error para cuando se escribe cualquier cosa en la url

@@ -19,7 +19,7 @@ import {Link} from 'react-router-dom';
 const NavBar = ({filtrarMenu, botonDarkMode}) => {
     const secciones = [{id:1, nombre:'Inicio'}, {id:2, nombre:'Carta'}, {id:3, nombre:'Carrito'}, {id:4, nombre:'Contacto Y Reservas'}];
     const [value, setValue] = useState('');
-    const [dark, setDark] = useState(true);
+    const [dark, setDark] = useState(false);
 
     const handleSubmit = (e) => e.preventDefault();
 
