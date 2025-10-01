@@ -2,3 +2,9 @@
    /*  border: 1px solid black; */
     
 }
+
+.customBadge {
+   width:fit-content;
+   height:fit-content;
+   font-size:medium
+}

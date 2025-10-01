@@ -29,7 +29,6 @@ const NavBar = ({filtrarMenu, botonDarkMode}) => {
     }
 
     const cambiarModoDark = (e) => {
-        console.log(e.target.checked)
         setDark(e.target.checked)
         botonDarkMode(e.target.checked)
     }
