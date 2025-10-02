@@ -2,57 +2,57 @@
     {
         "id": 1,
         "nombre": "Cortado & Croissants",
-        "descripcion": "Delicioso café de especialidad de origen colombia cortado y 2 Croissants con el mas exquisito sabor a manteca.",
+        "descripcion": "Delicioso café de especialidad origen colombia cortado y 2 Croissants con el mas exquisito sabor a manteca.",
         "precio": 12000,
-        "imagen": "./src/assets/cortado-con-2-croissants.png"
+        "imagen": "./src/assets/cortado-con-2-croissants3.png"
     },
     {
         "id": 2,
         "nombre": "Cortado & Medialunas",
-        "descripcion": "Delicioso café de especialidad de origen colombia cortado y 3 Medialunas con el mas exquisito sabor a manteca.",
+        "descripcion": "Delicioso café de especialidad origen colombia cortado y 3 Medialunas con el mas exquisito sabor a manteca.",
         "precio": 15000,
-        "imagen": "./src/assets/cortado-con-3-medialunas.png"
+        "imagen": "./src/assets/cortado-con-3-medialunas3.png"
     },
     {
         "id": 3,
         "nombre": "Cortado & Tarta de Coco",
-        "descripcion": "Delicioso café de especialidad de origen colombia cortado y 2 porciones de nuestra increible tarta de coco.",
+        "descripcion": "Delicioso café de especialidad origen colombia cortado y 2 porciones de nuestra increible tarta de coco.",
         "precio": 18000,
-        "imagen": "./src/assets/cortado-con-2-tarta-coco.png"
+        "imagen": "./src/assets/cortado-con-2-tarta-coco3.png"
     },
     {
         "id": 4,
-        "nombre": "nombre4",
-        "descripcion": "descripcion4",
-        "precio": 4,
-        "imagen": "path4"
+        "nombre": "Cortado & Cheesecake",
+        "descripcion": "Delicioso café de especialidad origen colombia cortado y 1 porcion de nuestro increible cheesecake.",
+        "precio": 22000,
+        "imagen": "./src/assets/cortado-con-cheesecake3.png"
     },
     {
         "id": 5,
-        "nombre": "nombre5",
-        "descripcion": "descripcion5",
-        "precio": 5,
-        "imagen": "path5"
+        "nombre": "Cortado & Torta de Chocolate",
+        "descripcion": "Delicioso café de especialidad origen colombia cortado y 1 porcion de nuestra increible torta de chocolate.",
+        "precio": 20000,
+        "imagen": "./src/assets/cortado-con-torta-chocolate3.png"
     },
     {
         "id": 6,
-        "nombre": "nombre6",
-        "descripcion": "descripcion6",
-        "precio": 6,
-        "imagen": "path6"
+        "nombre": "Cortado & Lemon Pie",
+        "descripcion": "Delicioso café de especialidad origen colombia cortado y 1 porcion de nuestro increible Lemon Pie.",
+        "precio": 20000,
+        "imagen": "./src/assets/cortado-con-lemon-pie3.png"
     },
     {
         "id": 7,
-        "nombre": "nombre7",
-        "descripcion": "descripcion7",
-        "precio": 7,
-        "imagen": "path7"
+        "nombre": "Latte & Amarettis",
+        "descripcion": "Café Latte con crema, caramelo, y amarettis para acompañar cortesia de la casa.",
+        "precio": 12000,
+        "imagen": "./src/assets/latte.png"
     },
     {
         "id": 8,
-        "nombre": "nombre8",
-        "descripcion": "descripcion8",
+        "nombre": "Irlandés & Amarettis",
+        "descripcion": "Café con whisky, crema, y amarettis para acompañar cortesia de la casa.",
         "precio": 8,
-        "imagen": "path8"
+        "imagen": "./src/assets/irlandes.png"
     }
 ]

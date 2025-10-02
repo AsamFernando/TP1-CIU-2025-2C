@@ -19,7 +19,7 @@ const Producto = ({producto, pedido, accion, textoBoton}) => {
     //ver si se puede poner lo del display en el css pero controlado por funcion js
     return (
         <Card className='text-center' style={{ width: '18rem' }}>
-            <Badge style={{display: productoEnPedido()?'block':'none'}} className="text-center position-absolute top-0 end-0 rounded-pill bg-danger customBadge" bg="secondary">{productoEnPedido()?productoEnPedido().cantidad:0 }</Badge>
+            <Badge style={{display: productoEnPedido()?'block':'none'}} className="position-absolute top-0 end-0 rounded-pill bg-danger customBadge" bg="secondary">{productoEnPedido()?productoEnPedido().cantidad:0 }</Badge>
             <Card.Img variant="top" src={`${producto.imagen}`} height={200} width={300} />
             <Card.Body>
                 <ListGroup variant='flush'>

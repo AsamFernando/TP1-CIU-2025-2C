@@ -5,6 +5,9 @@ import {useState} from 'react';
 import menu from './platos/platos.json';
 
 //arreglar los css puestos en los componentes usando css global o modules etc
+//Ver como persistir el carrito en localStorage, si hay q hacer funciones a parte q
+//modifiquen localStorage al mismo tiempo q el estado del carrito y como recuperar y usar
+//esa info almacenada para q la app la muestre en pantalla en teoria aunque se cierre el navegador
 
 function App() {
   const [pedido, setPedido] = useState([]);

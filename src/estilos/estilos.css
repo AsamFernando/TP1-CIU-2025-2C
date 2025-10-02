@@ -8,3 +8,11 @@
    height:fit-content;
    font-size:medium
 }
+
+.customRowCarta {
+   --bs-gutter-y:1.5rem
+}
+
+.customRowContactoYReserva {
+   padding:0 25% 0 25%;
+}

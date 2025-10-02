@@ -9,8 +9,8 @@ import {Producto} from "../components";
 const Carta = ({accionBoton, carta, pedido}) => {
     return (
         <Container className="my-4" fluid>
-            <Row className="justify-content-lg-center">
-                {carta.map(p => <Col key={p.id} className="d-flex justify-content-center customStyle" xs={12} md={4} sm={6} lg={4} xl={2}>{<Producto producto={p} textoBoton='Añadir al Carrito' accion={accionBoton} pedido={pedido} />}</Col>)}
+            <Row className="justify-content-lg-center customRowCarta">
+                {carta.map(p => <Col key={p.id} className="d-flex justify-content-center customStyle" xs={12} sm={6} md={4} lg={4} xl={2} xxl={2}>{<Producto producto={p} textoBoton='Añadir al Carrito' accion={accionBoton} pedido={pedido} />}</Col>)}
             </Row>
         </Container>
     )
